@@ -12,3 +12,10 @@ setTimeout(() => {
     document.getElementById("preloader").classList.add("pointer_event_none")
     document.body.classList.remove("overflow-hidden")
 }, 2000);
+
+// nav-bar
+function openNav() {
+    document.getElementById("navbar").classList.toggle("end-0");
+    document.body.classList.toggle("overflow_hidden");
+    document.getElementById("menubtn-icon").classList.toggle("cross")
+}
